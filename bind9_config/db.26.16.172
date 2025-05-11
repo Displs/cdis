@@ -1,0 +1,12 @@
+$TTL    604800
+@       IN      SOA     ald-srv-26.tsoy.local. root.tsoy.local. (
+                3       ; Serial
+                604800  ; Refresh
+                86400   ; Retry
+                2419200 ; Expire
+                604800  ; Negative Cache TTL
+)
+@       IN      NS      ald-srv-26.tsoy.local.
+1       IN      PTR     ald-srv-26.tsoy.local.
+2       IN      PTR     ksc-srv-26.tsoy.local.
+3       IN      PTR     arm-admin-26.tsoy.local.
