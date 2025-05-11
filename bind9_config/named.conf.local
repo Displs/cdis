@@ -1,0 +1,14 @@
+zone "tsoy.local" {
+        type master;
+        file "/etc/bind/zones/db.tsoy.local";
+};
+
+zone "26.16.172.in-addr.arpa" {
+        type master;                   
+        file "/etc/bind/zones/db.26.16.172";
+};
+
+zone "26.168.192.in-addr.arpa" {
+        type master;                   
+        file "/etc/bind/zones/db.26.168.192";
+};
