@@ -1,0 +1,13 @@
+@       IN      SOA     ald-srv-26.tsoy.local. root.tsoy.local. (
+                1       ; Serial
+                604800  ; Refresh
+                86400   ; Retry
+                2419200 ; Expire
+                604800  ; Negative Cache TTL
+)
+@                               IN      NS      ald-srv-26.tsoy.local.
+ald-srv-26.tsoy.local.          IN      A       172.16.26.1
+ksc-srv-26.tsoy.local.          IN      A       172.16.26.2
+arm-admin-26.tsoy.local.        IN      A       172.16.26.3
+
+arm-user-26.tsoy.local.         IN      A       192.168.26.1
